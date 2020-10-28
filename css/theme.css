@@ -1,0 +1,59 @@
+/*  $enable-grid-classes:false;
+$primary:#FF304F;
+$secondary:#CACACA;
+$success:#015668;
+$danger:#06648C;
+$info:#0F81C7;
+$warning:#0DE2EA;
+$light:#ececec;
+$dark:#222222;*/
+
+
+@import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
+.icon{
+  font-size: 2rem;
+  color:white;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+
+section:before {
+  height: 54px;
+  content: "";
+  display:block;
+}
+
+.navbar {line-height:20px;}
+.nav-link {margin-right: 1em !important}
+.navbar-toggler {border-width: 0px}
+
+.summary{
+  background-color: #015668; 
+  color: white;
+  padding-top: 30px; 
+  padding-bottom: 30px;
+}
+
+.summary span{
+  display:block;
+}
+
+.summary ul.social_medias{ 
+   padding: 0px;
+   padding-top: .5em;
+}
+.summary .social_medias li{
+   display: inline-block;
+   width: auto;
+   list-style: outside none none;
+}
+
+.publications{
+  background-color:#ececec; 
+  padding-bottom: 54px;
+}
+
+.publications .title{
+  padding-bottom: .5em;
+}
