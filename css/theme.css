@@ -10,12 +10,14 @@ $dark:#222222;*/
 
 
 @import url(https://use.fontawesome.com/releases/v5.3.1/css/all.css);
-.icon{
-  font-size: 2rem;
-  color:white;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6{
+ font-family: "Raleway";
 }
-.icon:hover {
-  transform: scale(1.2);
+
+html {
+  scroll-behavior: smooth;
 }
 
 section:before {
@@ -39,15 +41,37 @@ section:before {
   display:block;
 }
 
+.summary .icon{
+  font-size: 2rem;
+  color:white;
+}
+
+.summary .icon:hover {
+  transform: scale(1.2);
+}
+
 .summary ul.social_medias{ 
    padding: 0px;
    padding-top: .5em;
 }
+
 .summary .social_medias li{
    display: inline-block;
    width: auto;
    list-style: outside none none;
 }
+
+@media (min-width:992px){
+.summary .bio{
+ padding: 1em;
+ border-left:4px solid #10828C;
+}}
+
+@media (max-width:992px){
+.summary .bio{
+ padding: 1em;
+ border-top:4px solid #10828C;
+}}
 
 .publications{
   background-color:#ececec; 
@@ -56,4 +80,23 @@ section:before {
 
 .publications .title{
   padding-bottom: .5em;
+}
+
+.cvs{
+  color: white;
+  background-color:#066943; 
+  padding-bottom: 54px;
+}
+
+.cvs .title{
+  padding-bottom: 1em;
+}
+
+.cvs .blur{
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.cvs .card{
+ color:black;
 }

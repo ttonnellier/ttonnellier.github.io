@@ -9,7 +9,7 @@
   <meta name="keywords" content="hardware, implementation, digital system design, error correcting codes, machine learning, polar codes, ai, research">
   <meta name="theme-color" content="#015668">
 
-  <!-- Bootstrap CSS + Academicons -->
+  <!-- Bootstrap CSS + Academicons + Custom CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" rel="stylesheet">
   <link href=css/theme.css rel="stylesheet">
@@ -35,6 +35,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#publications">Publications</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cvs">Résumé</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -48,8 +51,8 @@
 
           <div class="col-lg-6 text-center">
             <img src="media/img/crop.JPG" class="img-fluid rounded-circle mb-3" alt="Profile Picture" style="width:300px; height:300px">
-            <span class="text-center" style="font-size:x-large;">Thibaud <strong>Tonnellier</strong></span>
-            <span class="text-center" style="font-size:large;">Adequation between Algorithm and Silicium</span>
+            <h2 class="text-center">Thibaud <strong>Tonnellier</strong></h2>
+            <h5 class="text-center">Adequation between Algorithm and Silicium</h5>
             <ul class="social_medias">
               <li>
                 <a href="https://scholar.google.ca/citations?user=gz8wxhMAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar fa-fw icon"></i></a>
@@ -63,16 +66,16 @@
             </ul>
           </div>
 
-          <div class="col-lg-6 text-justify">
+          <div class="col-lg-6 text-justify bio">
             <h2><i class="far fa-user"></i> Short Bio</h2>
             <p>I am currently a postdoctoral researcher at McGill University in Montréal, Québec with Prof. Warren J. Gross  <a href="https://isip.ece.mcgill.ca" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>.
-              Previously, I was completing my PhD thesis under the supervision of Prof. Christophe Jégo at the IMS Lab in Bordeaux, France <a href="https://www.ims-bordeaux.fr/fr/recherche/groupes-recherche/49-conception/csn/32-CSN" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>.
-            In 2013, I graduated from the Engineering School Enseirb-Matmeca, also located in Bordeaux.</p>
-            <p>My main research projects concern building efficient hardware architectures and software for error correcting codes.
-            While my PhD thesis was dealing with turbo codes, my PostDoc mainly focus on polar codes. In more details, my current research interest are:</p>
+              Previously, I was completing my Ph.D. thesis under the supervision of Prof. Christophe Jégo at the IMS Lab in Bordeaux, France <a href="https://www.ims-bordeaux.fr/fr/recherche/groupes-recherche/49-conception/csn/32-CSN" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i></a>.
+            In 2013, I graduated from the engineering school Enseirb-Matmeca, also located in Bordeaux.</p>
+            <p>My main research projects concern building efficient hardware architectures and software for error-correcting codes.
+            While my Ph.D. thesis was dealing with turbo codes, my PostDoc mainly focuses on polar codes. In more details, my current research interests are:</p>
             <ul>
               <li>Energy-Efficient Polar Decoders</li>
-              <li>Near-ML Decoders</li>
+              <li>Near-ML Decoding</li>
               <li>Machine Learning-Aided Decoders</li>
             </ul>
           </div>
@@ -85,10 +88,40 @@
         <h2 class="text-center title"><i class="far fa-newspaper"></i> Publications</h2>
         <div class="row">
           <div class="col">
-            <script src="https://bibbase.org/show?bib=ttonnellier.github.io/media/thibaud_no_dup.bib&jsonp=1"></script>
-            <!-- <script src="https://bibbase.org/show?bib=ttonnellier.github.io%2Fmedia%2Fthibaud.bib&jsonp=1"></script> -->
-
+            <script src="https://bibbase.org/show?bib=ttonnellier.github.io/media/thibaud_no_dup.bib&jsonp=1&group0=type"></script>
           </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="cvs" class="cvs">
+      <div class="container">
+        <h2 class="text-center title"><i class="far fa-file-alt"></i> Résumé</h2>
+        <div class="row justify-content-center">
+
+          <div class="col-md-6 col-lg-4 col-sm-9">
+            <div class="card">
+              <img src="media/img/cv_preview.jpg" class="card-img-top blur" style="padding: .5em">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title">Short résumé</h4>
+                <p class="card-text">(in French)</p>
+                <a class="btn btn-primary stretched-link" href="media/pdf/Thibaud_Tonnellier_CV.pdf" target="_blank" rel="noopener" role="button">Télécharger</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-sm-9">
+            <div class="card">
+              <img src="media/img/cv_preview.jpg" class="card-img-top blur" style="padding: .5em">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <h4 class="card-title">Academic résumé</h4>
+                <p class="card-text">(in English)</p>
+                <a class="btn btn-primary stretched-link disabled" data-toggle="popover" data-placement="top" data-content="Sorry, the academic résumé is not yet available. Please come back soon!" role="button">Download</a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
@@ -99,7 +132,9 @@
     <p class="m-0 text-center text-muted" style="font-size:10px">2020 - Made with Bootstrap, FontAwesome and Acedemicons.</p>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script type="text/javascript" src='js/main.js'></script>
 
 </body>
 </html>
